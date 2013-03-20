@@ -13,4 +13,4 @@ license
 =======
 
 **injekt** is under the [MIT License](http://www.opensource.org/licenses/MIT).
-Injekt it. [Fork it](https://github.com/aeberlin/injekt). Share it. Repear.
+Injekt it. [Fork it](https://github.com/aeberlin/injekt). Share it. Repeat.
