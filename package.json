@@ -1,7 +1,7 @@
 {
   "name"                : "injekt",
-  "version"             : "0.3.0",
-  "homepage"            : "http://arkbot.com/",
+  "version"             : "0.1.0",
+  "homepage"            : "https://github.com/aeberlin/injekt",
   "author"              : "Adam Eberlin <ae@adameberlin.com>",
   "description"         : "A tiny dependency injection and inheritance framework for Node.JS",
   "keywords"            : [ "dependency", "injection", "inheritance" ],
@@ -21,15 +21,13 @@
     "url"                 : "https://github.com/aeberlin/injekt.git"
   },
 
-  "dependencies"        : {
-    "injectr"             : "0.4.x"
-  },
+  "dependencies"        : { },
 
   "devDependencies"     : {
     "vows"                : "0.7.x"
   },
 
-  "bundleDependencies"  : [ "injectr" ],
+  "bundleDependencies"  : [ ],
 
   "engines"             : {
     "node"                : ">=0.8"
