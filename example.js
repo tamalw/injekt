@@ -22,4 +22,4 @@ var injekt = Injekt._inject;
 
 // console.log("Injekt.default_mocks:\n" + util.inspect(Injekt, true));
 
-injekt('./test.js')('foo', 'bar');
+// injekt('./test.js')('foo', 'bar');
