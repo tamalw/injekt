@@ -1,8 +1,8 @@
 var util = require('util');
 
-var Injekt = (require('./lib/injekt.js'))({
-  'default_mocks' : {
-    'Class' : require('./lib/clazz.js')
+var Injekt = require('./lib/injekt.js')({
+  'defaults' : {
+    'Clazz' : require('./lib/clazz.js')
   },
   'cache' : { },
   'fs' : require('fs'),
@@ -22,4 +22,4 @@ var injekt = Injekt._inject;
 
 // console.log("Injekt.default_mocks:\n" + util.inspect(Injekt, true));
 
-(injekt('./test.js'))('foo.bar', {});
+injekt('./test.js')('foo', 'bar');

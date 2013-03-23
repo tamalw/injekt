@@ -1,1 +1,1 @@
-module.exports = Class.define;
+module.exports = Clazz.define;
